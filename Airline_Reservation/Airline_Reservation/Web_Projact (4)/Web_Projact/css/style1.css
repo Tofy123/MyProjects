@@ -1,0 +1,1138 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+}
+body{
+	/*background-image: url("../log/bac.jpeg");*/
+	background: linear-gradient(to top,rgba(138,158,160,0.3)50%,rgba(138,158,160,0.3)50%),url("../log/bac.jpeg") ;
+	/*background-size:1600px 1300px;*/
+	background-size: cover;
+}
+/***************************css for the header ***************************/
+#logo,#logReg, header nav{
+	vertical-align: middle;
+	display: inline-block;
+}
+header{
+	background-image: url("../log/layout1.png");
+	/*background-size:1550px 460px;*/
+	background-size: cover; 
+	padding-left: 350px;
+	height: 390px;
+}
+#loginReg{
+	float: right;
+}
+#butloginReg{
+	border: none;
+	background-color:hsla(9,100%,64%,0);
+	float:left;
+	color: #002b55;
+	padding: 10px;
+	font-size: 19px;
+}
+#logo{
+	width: 300px ;
+	height: 200px;
+}
+#loginImg{
+	width: 70px;
+	height:60px; 
+}
+nav a{
+	text-decoration: none;
+	color: #002b55;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+	color: #002b55;
+}
+nav li{
+	display: inline;
+	padding: 0px 15px;
+}
+/***************************END of the css for the header ***************************/
+/***************************css for the footer ***************************/
+footer{
+	padding: 50px;
+	padding-top: 130px;
+	background-image: url("../log/Layout2.png");
+	/*background-size: 1550px 350px;*/
+	background-size: cover;   
+	height: 170px;
+	
+}
+#find{
+	margin-top: 50px;
+	color: white;
+	font-size: 19px;
+}	
+h4{
+	font-weight: bold;
+	font-size: 25px;
+}
+.icon{
+	width: 50px;
+	height: 40px;
+}
+/***************************END of the css for the footer ***************************/
+/***************************css for the main body ***************************/
+#main{
+	display: inline-flex;
+}
+/***************************css for the left side from main body ***************************/
+#home{
+	display: block;
+}
+#Welcome{
+	text-align: center;
+	color: #002b55;
+	font-size: 26px;
+}
+#paragraph{
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	float: left;
+	border-radius: 690px;
+	text-align: center;
+	padding-right:30px; 
+	padding-left:30px;
+	padding-top: 110px;
+	padding-bottom: 30px;
+	margin-right: 200px;
+	margin-top: -50px; 
+	margin-left: 90px;
+	background-color:hsla(9,100%,64%,0);
+	color: #002b55;
+	font-size: 23px;
+	box-shadow: 10px 10px;
+}
+/***************************END of the css for the left side from main body ***************************/
+/***************************css for the right side from main body ***************************/
+.form{
+	width: 500px;
+	height: 600px; 
+	position: relative;
+	margin-top: -10;
+	margin-left: 100px;
+	border-radius:20px;
+	padding: 5px;
+	overflow: hidden;
+	background-color:rgba(0,43,85,0.8);
+	visibility: visible;
+}
+/***************************css for the top button To move between login form and Register form ***************************/
+.buttons{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.but{
+	padding:10px 30px;
+	cursor: pointer;
+	background: transparent; 
+	border: 0;
+	outline: none;
+	position: relative;
+	color: white;
+	font-size: 15px;
+}
+#btn1{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width:110px;
+	height:100%;
+	background: #9e9a9a;
+	border-radius: 30px;
+	transition: .5s;
+}
+.err {
+	color: red;	
+	font-size: 14px;
+	visibility: hidden;
+}
+.war{
+	width: 10px;
+ 	height: 10px;
+}
+/*************************** END of the css for the top button To move between login form and Register form ***************************/
+/***************************css for both login form and Register form ***************************/
+.form2{
+	top: 180px;
+	position:absolute;
+	width: 280px;
+	transition: .5s;
+}
+.label{
+	background: transparent;
+}
+.input{
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+	color: white;
+}
+.icologin{
+	width: 50px;
+	height: 40px;
+	vertical-align: middle;
+}
+.legend{
+	font-weight: bold;
+}
+.but2{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	background: #9e9a9a;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	color: white;
+	font-size: 15px;
+}
+/***************************END of the css for both login form and Register form ***************************/
+/***************************css for login form ***************************/
+#login{
+	border-color: white;
+	width: 370px;
+	height: 480px;
+	/*margin-top: -20px;*/
+	/*padding: 10px;*/
+	padding-left: 10px;
+	border-radius:20px;
+	color: white;
+	font-size: 19px;
+	left: 50px;
+	margin-top: -50px;
+}
+#not{
+	background: #f2dede;
+	color: #a94442;
+	padding: 10px;
+	border-radius: 5px;
+}
+#table-margin{
+	margin-top: 5px;
+}
+/***************************END of the css for login form ***************************/
+/***************************css for Register form ***************************/
+#Reg{
+	border-color: white;
+	width: 370px;
+	height: 480px;
+	border-radius:20px;
+	padding-left: 10px;
+	color:white;
+	font-size: 19px;
+	left: 700px;
+	margin-top: -50px;
+}
+/***************************END of the css for Register form ***************************/
+/**************************flight booking page**********************************/
+/**********content CSS**********************/
+#title{
+	color: #002b55;
+	text-align: center;
+	font-size: 50px;
+}
+.form3{
+margin-left: 20px;
+padding:30px 30px 30px 60px;
+width: 100%;
+display: inline-block;
+}
+.form4{
+  width: 50%;
+  margin-left: 100px;
+}
+#ficon{
+vertical-align: middle;
+}
+.section1,.section2,.section3{
+  float:left;
+  margin-right: 6px;
+}
+
+
+.legend1{
+font-weight: bold;
+}
+#content{
+display: inline-block;
+}
+.fieldset{
+
+  background-color:rgba(0,43,85,0.8);
+	color: white;
+	font-size: 19px;
+	border-radius:20px;
+	box-shadow: 10px 10px rgba(225,225,225,0.8);
+	margin-right: 15px;
+	border-color: white;
+	width: 300px;
+	height: 400px;
+}
+#firstFieldset{
+	height: 300px;
+}
+.section3 fieldset{
+  height:200px;
+}
+#adults{
+  margin-right: 40px;
+}
+#children{
+    margin-right: 25px;
+}
+#infants{
+  margin-right: 33px;
+}
+#secondFieldset,#thirdFieldset{
+height:298px;
+}
+.age{
+  color:darkgrey;
+  font-size:18px;
+}
+.botton{
+	border-radius: 10px;
+	background-color: #9e9a9a;
+	padding: 10px;
+	font-size: 19px;
+	color: white;
+
+}
+.allBotton{
+margin-top: 330px;
+display: inline-block;
+}
+.err {
+	color: red;
+	font-size: 14px;
+	visibility: hidden;
+}
+.war{
+	width: 10px;
+ 	height: 10px;
+}
+/****************************Search page ******************************/
+#content1{
+   border-radius: 30px;
+  /* background-color: rgba(138,158,160,0.8);*/
+   margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 30px;
+	
+}
+.a{
+	text-decoration: none;
+	color: #002b55;
+	font-size: 20px;
+	font-weight: bold;
+}
+#top{
+	margin-left: 29%;
+    margin-right: 31%;
+	padding: 30px;
+    text-align: center;
+    font-size: 25px;
+	align-content: center;
+	margin-bottom: 100px;
+	padding-bottom: 100px;
+}
+
+.dispL{
+	width: 120px;
+	height: 100px;
+    float: left;
+    border-style: solid;
+    border-color: rgba(0,43,85,0.8);
+    border-radius: 20px;
+    align-items: center;
+    margin-right: 85px;
+    background-color: rgba(225,225,225,0.4);
+    padding-top: 10px;
+	padding-bottom: -100px;
+}
+
+.dispR{
+	width: 120px;
+	height: 100px;
+    float: right;
+    border-style: solid;
+    border-color: rgba(0,43,85,0.8);
+    border-radius: 20px;
+    align-items: center;
+    background-color: rgba(225,225,225,0.4);
+    padding-top: 10px;
+	padding-bottom: -100px;
+}
+
+.dispM{
+	width: 120px;
+	height: 100px;
+	float: left;
+	border-style: solid;
+    border-color: rgba(0,43,85,0.8);
+    border-radius: 20px;
+    align-items: center;
+    background-color: rgba(225,225,225,0.4);
+    padding-top: 10px;
+	padding-bottom: -100px;
+
+}
+#mid{   
+    margin-left: 400px;
+    padding:30px 30px 30px 30px;
+    width: 650px;
+    display: inline-block;
+    background-color: rgba(0,43,85,0.8);
+    text-align: center;
+	font-size: 20px;
+	border-color: white;
+	border-radius: 20px;
+	visibility: visible;
+	color: white;
+	margin-bottom: 50px;
+}
+/**** latifah and fatimah **/
+.slider{
+  width:800px;
+  height:500px;
+  border: 10px;
+  overflow:hidden;
+  margin-left: 350px;
+  border-radius: 30px;
+}
+.slides{
+width:500%;
+height:500px;
+display: flex;
+
+}
+.slides input{
+  display: none;
+} 
+.slide{
+  width:20%;
+  transition:2s;
+}
+.slide img{
+  width:800px;
+  height:500px;
+}
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top:-40px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn{
+  border:2px solid #002b55;
+  padding:5px;
+  border-radius: 10px;
+  cursor:pointer;
+  transition:1s;
+}
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+.manual-btn:hover{
+  background: #002b55;
+}
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+#radio5:checked ~ .first{
+  margin-left: -80%;
+}
+#radio6:checked ~ .first{
+  margin-left: -100%;
+}
+#radio7:checked ~ .first{
+  margin-left: -120%;
+}
+.navigation-auto{
+position: absolute;
+display:flex;
+width:800px;
+justify-content: center;
+margin-top: 460px;
+  
+}
+.navigation-auto div{
+  border:2px solid #002b55;
+  padding:5px;
+  border-radius: 10px;
+  transition:1s;
+  
+}
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+#radius1:checked ~ .navigation-auto .auto-btn1{
+  background: #002b55;
+}
+#radius2:checked ~ .navigation-auto .auto-btn2{
+  background: #002b55;
+}
+#radius3:checked ~ .navigation-auto .auto-btn3{
+  background: #002b55;
+}
+#radius4:checked ~ .navigation-auto .auto-btn4{
+  background: #002b55;
+}
+#radius5:checked ~ .navigation-auto .auto-btn5{
+  background: #002b55;
+}
+#radius6:checked ~ .navigation-auto .auto-btn6{
+  background: #002b55;
+}
+#radius7:checked ~ .navigation-auto .auto-btn7{
+  background: #002b55;
+}
+/*********************slider2**************************/
+.slider2{
+  width:800px;
+  height:500px;
+  border: 10px;
+  overflow:hidden;
+  margin-left: 350px;
+  border-radius: 30px;
+}
+.slides2{
+width:500%;
+height:500px;
+display: flex;
+
+}
+.slides2 input{
+  display: none;
+} 
+.slide2{
+  width:20%;
+  transition:2s;
+}
+.slide2 img{
+  width:800px;
+  height:500px;
+}
+.navigation-manual2{
+  position: absolute;
+  width: 800px;
+  margin-top:-40px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn2{
+  border:2px solid #002b55;
+  padding:5px;
+  border-radius: 10px;
+  cursor:pointer;
+  transition:1s;
+}
+.manual-btn2:not(:last-child){
+  margin-right: 40px;
+}
+.manual-btn2:hover{
+  background: #002b55;
+}
+#radio12:checked ~ .first2{
+  margin-left: 0;
+}
+#radio22:checked ~ .first2{
+  margin-left: -20%;
+}
+#radio32:checked ~ .first2{
+  margin-left: -40%;
+}
+#radio42:checked ~ .first2{
+  margin-left: -60%;
+}
+#radio52:checked ~ .first2{
+  margin-left: -80%;
+}
+#radio62:checked ~ .first2{
+  margin-left: -100%;
+}
+#radio72:checked ~ .first2{
+  margin-left: -120%;
+}
+.navigation-auto2{
+position: absolute;
+display:flex;
+width:800px;
+justify-content: center;
+margin-top: 460px;
+  
+}
+.navigation-auto2 div{
+  border:2px solid #002b55;
+  padding:5px;
+  border-radius: 10px;
+  transition:1s;
+  
+}
+.navigation-auto2 div:not(:last-child){
+  margin-right: 40px;
+}
+#radius12:checked ~ .navigation-auto2 .auto-btn12{
+  background: #002b55;
+}
+#radius22:checked ~ .navigation-auto2 .auto-btn22{
+  background: #002b55;
+}
+#radius32:checked ~ .navigation-auto2 .auto-btn32{
+  background: #002b55;
+}
+#radius42:checked ~ .navigation-auto2 .auto-btn42{
+  background: #002b55;
+}
+#radius52:checked ~ .navigation-auto2 .auto-btn52{
+  background: #002b55;
+}
+#radius62:checked ~ .navigation-auto2 .auto-btn62{
+  background: #002b55;
+}
+#radius72:checked ~ .navigation-auto .auto-btn72{
+  background: #002b55;
+}
+/****************** END latifah and fatimah **********************/
+#int, #loc{
+	margin-left: 400px;
+    padding:30px 30px 30px 30px;
+    width: 650px;
+    display: inline-block;
+    background-color: rgba(0,43,85,0.8);
+    text-align: center;
+	font-size: 20px;
+	border-color: white;
+	border-radius: 20px;
+	visibility: visible;
+	color: white;
+}
+.outpics, .inpics{
+	display: inline-block;
+}
+.fieldset_a{
+	padding: 20px;
+}
+#bottom{ 
+    margin-left: 400px;
+    padding:30px 30px 30px 30px;
+    width: 650px;
+    display: inline-block;
+    background-color: rgba(0,43,85,0.8);
+    text-align: center;
+	font-size: 20px;
+	border-color: white;
+	border-radius: 20px;
+	visibility: visible;
+	color: white;
+	margin-bottom: 50px;
+}
+.button_a{
+	top: 0;
+	padding: 10px;
+	background: #9e9a9a;
+	border-radius: 10px;
+}
+.warinig{
+		width: 10px;
+		 height: 10px;
+}
+	
+.err {
+	  visibility: hidden;
+	  color: red;
+	  font-size: 14px;
+}
+.botton_ED{
+	margin-top: 20px;
+	border-radius: 10px;
+	background-color: rgba(158,154,154,0.5);
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 15px;
+	color: #002b55;
+	border: none;
+}
+/*******************contact page *************************/
+#contact2{
+	border-radius: 30px;
+   /* background-color: rgba(138,158,160,0.8);*/
+}
+.container{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+	right: -20px;
+}
+.pic{
+    float: left;
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.contactForm{
+    width: 40%;
+	height: 400px;
+    padding: 40px;
+	border: solid;
+	border-color: rgba(0,43,85,0.8);
+    background-color: rgba(225,225,225,0.6);
+    position: relative;
+	margin-top: -10px;
+    float: right;
+    right: 60px;
+    bottom: 10px;
+    border-radius: 5%;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #002b55;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input, .contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 2px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    color: #666;
+}
+.warinig{
+	width: 10px;
+ 	height: 10px;
+}
+.err {
+  visibility: hidden;
+  color: red;
+  font-size: 14px;
+  padding: 5px;
+}
+/********************renting car page *********************/
+#main_a{
+	display: block;
+}
+#rent{
+    margin-left: 350px;
+	background-color: rgba(0,43,85,0.8);
+	padding:60px 70px 60px 70px;
+	width: 650px;
+	border-radius: 20px;
+	color: white;
+}
+
+ .btnStyle {
+ 	width: 100px ;
+	border-radius: 10px;
+	background-color: #9e9a9a;
+	padding: 8px;
+	font-size: 19px;
+	color: white;
+	margin-top: 5px;
+}
+/**Styling the cars pictures**/
+ul .carImage {
+	
+	border-width:5px ;
+	border-bottom:100px;
+    display: block;
+    border-radius: 10px;
+    width: 190px;
+    padding: 14px;
+    background: #f0eeed;
+    margin: 0 0 17px 17px;
+    position: relative;
+    left: -30px;
+	margin-left:  55px;
+	margin-top: 10px;
+	
+    
+	
+}
+/**car car images**/
+.list_AS li{
+	list-style: none;  	
+}
+ /**The car Type style**/
+p,.text{
+	 	font-size: 18px;
+	 		margin-top:30px ;
+	
+}
+ /**The car details style**/
+p .innerList{
+	 	font-size: 18px;
+		margin-top:50px ;
+		margin-left: -20px;
+		margin-bottom: 5px;
+	 	
+}
+	/**Styling the list inside each car section**/
+	ul .innerList{
+	    display: block;
+		font-size: 18px;
+		margin-left: -40px;
+		margin-top:50px ;
+
+	}
+	
+	h3,.text{
+			font-size: 30px;
+		margin: -25px;
+		 	margin-top:-50px ;
+	}
+	.carForm{
+      padding:50px 50px 50px 50px;
+      position: relative;
+      margin-left: -75px;
+      width: 20px;
+       
+}
+/**Fieldset styling**/
+#carField{
+	border-radius:20px;
+    width: 600px;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+h1 ,.hStyle {
+color: #002b55;
+ text-align: center;
+	font-style: italic;
+	font-size:45px ;
+	text-shadow: 1px 1px 1px #002b55,
+               4px 4px 2px white;
+	
+}
+.rentIcon {
+width : 50px;
+vertical-align:middle;
+}
+#carField .smallIcon{
+	width : 30px;
+	vertical-align:middle;
+
+}
+.dividers{
+  border-top: 3px #bbb;
+  width: 200%;
+}
+.errorMsg{
+	font-style: italic;
+	color:red ;
+     font-size: 12px;
+     visibility: hidden;  
+}
+.warImg{
+	width: 15px;
+ 	height: 15px;
+ 	vertical-align:middle;
+}
+.checkbox{
+	vertical-align: middle;
+	font-size: 20px;
+}
+
+/*************************hotel page******************************/
+#hotel_d{
+	width: 50px;
+	height: 60px;
+	vertical-align: middle;
+}
+.fieldset_d{
+  width: 660px;   
+  border: solid 2px black;
+  padding: 20px;
+  background-color: rgba(0,43,85,0.8);
+  color: white;
+  height: 650px;
+  border-color: white;
+  border-radius: 30px;
+}
+.error_d{
+
+	visibility:hidden;
+}
+#table_d{
+	margin-top: -150px;
+	margin-left: 60px;
+	padding: 30px;
+}
+.input_d{
+	margin: 10px;
+	padding: 4px;
+	width: 200px;
+}
+.inputBUT_d{
+	top: 0;
+	padding: 10px;
+	background: #9e9a9a;
+	border-radius: 10px;
+	color: white;
+}
+/*******************all page *************************/
+input[type="submit"]:hover{
+    background-color: rgba(225,225,225,0.6);
+}
+/************************about us page ****************************/
+.main-content{
+	color: white;
+	display: inline-block;
+  }
+  
+  #list-ul{
+	list-style: none;
+  }
+  #f-content{
+  
+   width: 580px;
+	  height: 400px;
+	  margin: 0 auto;
+	  float: left;
+	  border-radius: 500px;
+	  text-align: center;
+	  padding-right:30px; 
+	  padding-left:30px;
+	  padding-top: 10px;
+	  padding-bottom: 30px;
+	  margin-right: -50px;
+	  margin-top: -100px; 
+	  margin-left: 100px;
+	  background-color:hsla(9,100%,64%,0);
+	  color: #002b55;
+	  font-size: 23px;
+	  box-shadow: 10px 10px;
+
+  
+  }
+  #p-title{
+   text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkblue;
+  }
+  #m-content{
+	  width: 320px;
+	  height: 270px;
+	  margin: 0 auto;
+	  float: right;
+	  border-radius: 500px;
+	  text-align: center;
+	  padding-right:30px; 
+	  padding-left:30px;
+	  padding-top: 45px;
+	  padding-bottom: 30px;
+	  margin-right: -500px;
+	  margin-top: 5px; 
+	  margin-left: -500px;
+	  background-color:hsla(9,100%,64%,0);
+	  color: #002b55;
+	  font-size: 23px;
+	  box-shadow: 10px 10px;
+	  font-size: 20px;
+  }
+/***********************update page ************************/
+#tiUp{
+	margin-left: 350px;
+	background-color: rgba(0,43,85,0.8);
+	padding:60px 80px 60px 80px;
+	width: 600px;
+	height:520px ;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+}
+.ticketForm{
+      padding:30px 50px 30px 50px;
+      position: relative;
+      margin-left: -65px;
+      width: 20px;
+       
+}
+#ticketField{
+	height: 500px;
+	border-radius:20px;
+	margin-left: -10px;
+    width: 600px;
+}
+h1 ,.tic_Style {
+color: #002b55;
+ text-align: center;
+	font-style: italic;
+	font-size:45px ;
+	text-shadow: 1px 1px 1px #002b55,
+               4px 4px 2px white;
+	
+}
+.btnStyle3 {
+ 	width: 100px ;
+	border-radius: 10px;
+	background-color: #9e9a9a;
+	padding: 8px;
+	font-size: 19px;
+	color: white;
+	margin-top: 5px;
+}
+#reUp{
+	margin-left: 470px;
+	background-color: rgba(0,43,85,0.8);
+	padding:60px 80px 60px 80px;
+	width: 450px;
+	height:380px ;
+	border-radius: 20px;
+	color: white;
+	font-size: 17px;
+}
+.resForm{
+      padding:30px 50px 30px 50px;
+      position: relative;
+      margin-left: -65px;
+      width: 20px;
+       
+}
+#hotelField{
+	border-radius:20px;
+	margin-left: -10px;
+    width: 450px;
+}
+h1 ,.res_Style {
+color: #002b55;
+ text-align: center;
+	font-style: italic;
+	font-size:45px ;
+	text-shadow: 1px 1px 1px #002b55,
+               4px 4px 2px white;
+	
+}
+.btnStyle4{
+ 	width: 100px ;
+	border-radius: 10px;
+	background-color: #9e9a9a;
+	padding: 8px;
+	font-size: 19px;
+	color: white;
+	margin-top: 5px;
+}
+#teUp{
+	margin-left: 350px;
+	background-color: rgba(0,43,85,0.8);
+	padding:60px 80px 60px 80px;
+	width: 600px;
+	border-radius: 20px;
+	color: white;
+	height:490px;
+	font-size: 20px;
+}
+.rent_form{
+      padding:30px 50px 30px 50px;
+      position: relative;
+      margin-left: -65px;
+      width: 20px;
+       
+}
+#rent_Field{
+	border-radius:20px;
+	margin-left: -10px;
+    width: 600px;
+}
+h1 ,.ren_Style {
+color: #002b55;
+ text-align: center;
+	font-style: italic;
+	font-size:45px ;
+	text-shadow: 1px 1px 1px #002b55,
+               4px 4px 2px white;
+             }
+  .btnStyle2 {
+ 	width: 100px ;
+	border-radius: 10px;
+	background-color: #9e9a9a;
+	padding: 8px;
+	font-size: 19px;
+	color: white;
+	margin-top: 5px;
+}
+.fram_ED{
+	border-radius:20px;
+	
+	margin-left: 500px;
+    width: 450px;
+	height: 200px;
+	color: #002b55;
+    text-align: center;
+	font-style: italic;
+	font-size:20px ;
+	text-shadow: 1px 1px 1px #002b55,
+               4px 4px 2px white;
+}
+.resrving{
+	border-radius:20px;
+	background-color: rgba(0,43,85,0.5);
+	padding-left: 96px;
+	padding-top: 30px;
+	padding-bottom: -40px;
+   height: 90px;
+   border: none;
+   color: white;
+}
+/*section{
+	position:relative;
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+
+}
+
+section  img{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	object-fit: cover;
+	pointer-events: none;
+}*/

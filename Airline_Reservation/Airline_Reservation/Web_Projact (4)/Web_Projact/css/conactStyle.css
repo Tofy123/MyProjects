@@ -1,0 +1,63 @@
+#contact2{
+    background: #8a9ea0;
+}
+.container{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.pic{
+    float: left;
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    position: relative;
+    float: right;
+    right: 20px;
+    bottom: 10px;
+    border-radius: 5%;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #002b55;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input, .contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 2px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    color: #666;
+}
+.warinig{
+	width: 10px;
+ 	height: 10px;
+}
+.err {
+  visibility: hidden;
+  color: red;
+  font-size: 14px;
+  padding: 5px;
+}
